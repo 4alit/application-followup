@@ -2,7 +2,7 @@
 class Interview
 {
 	public static $title = 'Interview test';//we call static field in H1 tag 
-        /*or should create an istance of the class if it's not static and call it like: <h1><?php $obj=new Interview();echo $obj->$title;?></h1>*/
+        /*or should create an istance of the class if it's not static and call it like: <h1><?php $obj=new Interview();echo $obj->title;?></h1>*/
 }
 $lipsum = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt, quasi aliquid, quod officia commodi magni eum? Provident, sed necessitatibus perferendis nisi illum quos, incidunt sit tempora quasi, pariatur natus.';
 $people = array(
