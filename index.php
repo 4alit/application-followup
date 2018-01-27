@@ -19,11 +19,7 @@
     }
   }
 
-  /**
- * @param array $post
- * @return string
- */
-/*  public function getPersonToSubmit($post) {
+ public function getPersonToSubmit($post) {
         if ($post) {
             if (!empty(implode($post))) {
                  return implode(' ', $post);
