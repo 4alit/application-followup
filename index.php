@@ -12,7 +12,7 @@
                     array('id' => 5, 'first_name' => 'Doug', 'last_name' => 'Simons', 'email' => 'doug.simons@hotmail.com')
   );
   protected $lipsum = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt, quasi aliquid, quod officia commodi magni eum? Provident, sed necessitatibus perferendis nisi illum quos, incidunt sit tempora quasi, pariatur natus.';
-
+  //I can create setter here and the class can be more flexile and reusable for the similar pages.
   public function __get($property) {
     if (isset($property)) {
         return $this->$property;
@@ -39,7 +39,7 @@
   $lipsum = $obj->lipsum;
   $people = $obj->people;
   $personToSubmit = $obj->getPersonToSubmit($_POST) */
-
+//we could replace all this things with the code I comented above.
 $title = 'Interview test';
 $people = array(
     array('id' => 1, 'first_name' => 'John', 'last_name' => 'Smith', 'email' => 'john.smith@hotmail.com'),
